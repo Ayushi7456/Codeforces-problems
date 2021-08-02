@@ -1,3 +1,4 @@
+// stones on the table
 import java.util.*;
 import java.io.*;
 
