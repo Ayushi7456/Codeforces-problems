@@ -1,3 +1,4 @@
+// word Capiralization
 import java.util.*;
 import java.io.*;
 
