@@ -1,8 +1,8 @@
-// stones on the table
+// stones on the table Problem339A 
 import java.util.*;
 import java.io.*;
 
-public class Problem339A {
+public class stones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

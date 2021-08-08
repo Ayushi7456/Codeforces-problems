@@ -1,8 +1,8 @@
-// wrong subtraction
+// wrong subtraction Problem977A 
 import java.util.*;
 import java.io.*;
 
-public class Problem977A {
+public class wrongSubtraction {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

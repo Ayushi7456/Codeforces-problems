@@ -1,8 +1,8 @@
-// word Capiralization
+// word Capitalization  Problem281A 
 import java.util.*;
 import java.io.*;
 
-public class Problem281A {
+public class wordCaps {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String word = sc.next();
