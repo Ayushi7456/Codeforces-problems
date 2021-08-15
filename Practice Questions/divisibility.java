@@ -20,7 +20,6 @@ public class divisibility {
                 // System.out.println(count);         //bruteforce approach
                 System.out.println(b - (a % b));     //optimized approach
             }
-
         }
     }
 }
