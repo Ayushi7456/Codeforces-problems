@@ -9,18 +9,21 @@ public class PoliceRecruit {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int count = 0;
-        for (int i = 1; i < n; i++) {
-            if (arr[i] == -1) {
-                if (arr[i - 1] != 1) {
-                    count++;
-                } else {
-                    count = 0;
+        int police = 0;
+        int crime = 0;
+        for (int i = 0; i < n; i++) {
+            if(arr[i]>0){
+                police+=arr[i];
+            }
+            else{
+                if(police>0){
+                    police--;
                 }
-            } else {
-                i++;
+                else{
+                    crime++;
+                }
             }
         }
-        System.out.println(count);
+        System.out.println(crime);
     }
 }
