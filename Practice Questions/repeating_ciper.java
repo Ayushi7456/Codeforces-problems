@@ -16,3 +16,11 @@ public class repeating_ciper {
     }
 
 }
+// Sequence is: 1 3 6 10 15 21 28.....
+/*
+ * int d=1; 
+ * for(int i=1; i<55; i=i+d){ 
+ *       System.out.println(i)
+ *       d++; 
+ * }
+ */
